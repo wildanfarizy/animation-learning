@@ -2,6 +2,8 @@
     height: 90vh;
     width: 25%;
     background-color: none;
+    align-items: center;
+    border: none;
 }
 .container{
     height: 100%;
@@ -20,7 +22,22 @@ body{
     position:absolute;
     height: 30vh;
     width: 100%;
-    background-color: red;
+    background: linear-gradient(to bottom, #aa0505, #6a0c0b);
     bottom: 0;
     border-radius: 1vh;
+}
+
+img{
+    z-index: 1;
+    height: 40%;
+    width: 60%;
+    bottom: 20vh;
+    position: absolute;
+
+}
+
+.playedby{
+    color: #fbca03;
+    bottom: 0;
+    position: absolute;
 }
